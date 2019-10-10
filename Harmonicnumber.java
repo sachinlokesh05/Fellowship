@@ -1,3 +1,4 @@
+//date: thursday,10/10/2019 6:17
 import java.util.Scanner;
 public class Harmonic_number {
 	public static void main(String[] args) {
@@ -7,15 +8,14 @@ public class Harmonic_number {
 		double sum=0;
 		for(int i=1;i<=n;i++)
 		{
-			
-			sum=sum+(double)1/i;
-			System.out.println(i+":"+sum);
+		
+			sum=sum+(float)1/i;
+			System.out.println("1/"+i+":"+sum);
 		}
-			System.out.println(sum);
-			System.out.println((long)(1/3));
-		}
-
+		System.out.println();
+		System.out.println("nth harmonic value:"+sum);
 	}
+}
 
 
 
